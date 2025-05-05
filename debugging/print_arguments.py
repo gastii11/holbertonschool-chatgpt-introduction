@@ -4,5 +4,3 @@ import sys
 if len(sys.argv) > 1:
     for i, arg in enumerate(sys.argv):
         print(f"{arg}")
-else:
-    print("No se proporcionaron argumentos.")
