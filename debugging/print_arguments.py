@@ -3,4 +3,4 @@ import sys
 
 if len(sys.argv) > 1:
     for i, arg in enumerate(sys.argv):
-        print(f"{arg}")
+        print(sys.argv[i])
